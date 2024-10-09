@@ -1,4 +1,4 @@
-# Netflix Content Analysis Project
+# Netflix Analysis Project
 
 ## Overview
 
