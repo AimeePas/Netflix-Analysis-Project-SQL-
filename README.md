@@ -3,7 +3,9 @@
 ## Overview
 
 This project presents a thorough analysis of Netflix's Movies and TV Shows dataset using SQL. The primary goal is to extract meaningful insights and address various business questions related to the content on Netflix.
+
 ![new-movies-and-shows-coming-on-netflix-heres-the-list](https://github.com/user-attachments/assets/5f770b8e-42e9-4b51-8332-133c09b29e66)
+
 
 ## Objectives
 
