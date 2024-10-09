@@ -7,12 +7,12 @@ This project presents a thorough analysis of Netflix's Movies and TV Shows datas
 
 ## Objectives
 
-- **Content Type Distribution**: Analyze the distribution of content types (Movies vs. TV shows).
+- **Content Type Distribution**: Analyse the distribution of content types (Movies vs. TV shows).
 - **Common Ratings**: Identify the most frequent ratings assigned to movies and TV shows.
-- **Release Year Analysis**: List and analyze content based on release years, countries, and durations.
+- **Release Year Analysis**: List and analyse content based on release years, countries, and durations.
 - **Content Categorization**: Explore and categorize content based on specific criteria and keywords.
 
-Snipet SCHEMA
+Snippet SCHEMA(For more check the uploaded Netflix.sql)
 -- 17.  Oldest movies on Netflix
 SELECT title, type,release_year
 FROM NETFLIX
