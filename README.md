@@ -2,22 +2,27 @@
 
 ## Overview
 
-This project presents a thorough analysis of Netflix's movies and TV shows dataset using SQL. The primary goal is to extract meaningful insights and address various business questions related to the content on Netflix. This README provides a detailed overview of the project's objectives, business problems, solutions, findings, and conclusions.
+This project presents a thorough analysis of Netflix's movies and TV shows dataset using SQL. The primary goal is to extract meaningful insights and address various business questions related to the content on Netflix.
+![new-movies-and-shows-coming-on-netflix-heres-the-list](https://github.com/user-attachments/assets/5f770b8e-42e9-4b51-8332-133c09b29e66)
 
 ## Objectives
 
-- **Content Type Distribution**: Analyze the distribution of content types (movies vs. TV shows).
+- **Content Type Distribution**: Analyze the distribution of content types (Movies vs. TV shows).
 - **Common Ratings**: Identify the most frequent ratings assigned to movies and TV shows.
 - **Release Year Analysis**: List and analyze content based on release years, countries, and durations.
 - **Content Categorization**: Explore and categorize content based on specific criteria and keywords.
 
-## Dataset
+Snipet SCHEMA
+-- 17.  Oldest movies on Netflix
+SELECT title, type,release_year
+FROM NETFLIX
+GROUP BY show_id
+ORDER BY release_year ASC
 
-The data for this project is sourced from the Kaggle dataset:
+--There are movies / shows on the platform which were released way back in 1920s.
 
-**Dataset Link**: [Movies Dataset](https://www.kaggle.com/datasets/shubhendra/netflix-original-movies-and-tv-shows)  
 
-**Objective**: Categorize content as 'Bad' if it contains the keywords 'kill' or 'violence', and 'Good' otherwise. Count the number of items in each category.
+**Objectives**: Categorize content as 'Bad' if it contains the keywords 'kill' or 'violence', and 'Good' otherwise. Count the number of items in each category.
 
 ## Findings and Conclusions
 
