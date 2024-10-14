@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project presents a thorough analysis of Netflix's Movies and TV Shows dataset using SQL.
+This project presents a thorough analysis of Netflix's Movies and TV Shows dataset using SQLite.
 The primary goal is to extract meaningful insights and address various business questions related to the content on Netflix. The analysis explores multiple aspects of Netflix's content, including type distribution, ratings, release years, and more, providing actionable insights into content strategy.
 
 ![new-movies-and-shows-coming-on-netflix-heres-the-list](https://github.com/user-attachments/assets/5f770b8e-42e9-4b51-8332-133c09b29e66)
@@ -16,16 +16,20 @@ The primary goal is to extract meaningful insights and address various business 
 - **Content Categorization**: Explore and categorize content based on specific criteria and keywords.
 
 Snippet SCHEMA(For more check the uploaded Netflix.sql)
--- 17.  Oldest movies on Netflix
-'''sql
-SELECT title, type,release_year
+
+-- 17.  Oldest movies/ TV Shows on Netflix
+
+```sql
+SELECT title, typee,release_year
 FROM NETFLIX
 GROUP BY show_id
 ORDER BY release_year ASC
-'''
-Objective: Identify the oldest movies on Netflix by sorting content by release year to understand the historical range of available content.
---There are movies / TV Shows on the platform which were released way back in 1920s.
+```
+Objective: Identify the oldest movies on Netflix by sorting content based on release year. This helps understand the historical range of movies and TV shows available on the platform.
 
+<img width="731" alt="Screenshot 2024-10-14 at 05 22 22" src="https://github.com/user-attachments/assets/436c453e-d945-4379-92a2-922298240bfa">
+
+Fun Fact: Some TV Show on Netflix date back to the 1920s.
 
 ## Findings and Conclusions
 
