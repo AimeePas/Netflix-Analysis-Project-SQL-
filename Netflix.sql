@@ -160,8 +160,8 @@ COUNT(*) as total_content
 FROM new_table
 GROUP BY 1
 
--- 17.  Oldest movies on Netflix
-SELECT title, type,release_year
+-- 17.  Oldest movies/ shows on Netflix
+SELECT title, typee,release_year
 FROM NETFLIX
 GROUP BY show_id
 ORDER BY release_year ASC
